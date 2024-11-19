@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Projeto Tracker</title><body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-location-dot" id="nav_logo">Tracker(Beta)</i>
+            <ul id="nav_list">
+                <li class="nav_item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#menu">Apresentação</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn_default">
+                Compre agora
+            </button>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav_item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#menu">Apresentação</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn_default">
+                Compre agora
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Rastreio e controle na palma da <span>sua</span> mão
+                </h1>
+                <p class="description">
+                    Acompanhe em tempo real a localização de pessoas, animais e veículos, o Tracker oferece informações sobre pontos de coleta e troca de materiais recicláveis, incentivando práticas sustentáveis. Com uma interface intuitiva e funcional, e um sistema do conquistas e ranking o aplicativo promove uma mobilidade mais consciente e conecta seus usuários a iniciativas ambientais.
+                </p>
+                <div id="cta_buttons">
+                    <a href="#" class="btn_default">
+                        Ver funções
+                    </a>
+                    <a href="tel:+5555555555" id="phone_button">
+                        <button class="btn_default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (15) 99167-1391
+                    </a>
+                </div>
+                <div class="social_media_buttons">
+                    <a href="https://wa.me/5515991671391" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> 
+                    </a>
+                    <a href="https://www.instagram.com/instafacens/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i> 
+                    </a>
+                    <a href="https://www.facebook.com/facens" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="src/images/phone.png" alt="">
+            </div>
+        </section>
+        <section id="menu">
+            <h2 class="section_title">Compre agora</h2>
+            <h3 class="section_subtitle">Todos os produtos</h2>
+            <div id="trackers">
+                <div class="tracker">
+                    <div class="tracker_heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/tracker.png" class="tracker_image" alt="">
+                    <h3 class="tracker_title">
+                        Tracker
+                    </h3>
+                    <span class="tracker_description">
+                        Apenas o dispositivo, anexe a sua mochila, objetos ou qualquer lugar. Incluí manual de instalação em veículos.
+                    </span>
+                    <div class="tracker_rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(99+)</span>
+                    </div>
+                        <div class="tracker_price">
+                            <h4>R$60,00</h4>
+                            <button class="btn_default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                </div>
+                <div class="tracker">
+                    <div class="tracker_heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/trackerband.png" class="tracker_image" alt="">
+                    <h3 class="tracker_title">
+                        TrackerBand
+                    </h3>
+                    <span class="tracker_description">
+                        Para utilizar no pulso, leve e fácil de colocar. Vincule a sua conta no APP e participe do ranking e desbloqueie conquistas.
+                    </span>
+                    <div class="tracker_rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(99+)</span>
+                    </div>
+                        <div class="tracker_price">
+                            <h4>R$60,00</h4>
+                            <button class="btn_default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                </div>
+                <div class="tracker">
+                    <div class="tracker_heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/trackercollar.png" class="tracker_image" alt="">
+                    <h3 class="tracker_title">
+                        TrackerCollar
+                    </h3>
+                    <span class="tracker_description">
+                        Garanta a segurança do seu pet, oferecendo tranquilidade onde quer que ele esteja. Resistente e confortável, ideal para animais de todas as idades e tamanhos.
+                    </span>
+                    <div class="tracker_rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(99+)</span>
+                    </div>
+                        <div class="tracker_price">
+                            <h4>R$60,00</h4>
+                            <button class="btn_default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                </section>
+                <section id="testimonials">
+                    <img src="src/images/user.png" alt="testimonial_user">
+                    <div id="testimonials_content">
+                        <h2 class="section_title">
+                            Avaliações
+                        </h2>
+                            <h3 class ="section_subtitle">
+                                O que os úsuarios falam sobre nós
+                            </h3>
+                            <div id="feedbacks">
+                                <div class="feedback">
+                                    <img src="src/images/avatar2.png" class="feedback_avatar" alt="">
+                                    <div class="feedback_content">
+                                        <p>
+                                            Amanda Ceccato
+                                            <span>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </span>
+                                        </p>
+                                        <p>
+                                        "É incrível para monitorar meus animais! Agora, sempre sei onde estão e fico muito mais tranquila. O app ainda tem conquistas e rankings de uso sustentável, o que me motiva a ir mais aos pontos de troca de recicláveis." 
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="feedback">
+                                    <img src="src/images/avatar.png" class="feedback_avatar" alt="">
+                                    <div class="feedback_content">
+                                        <p>
+                                            Pedro Almeida
+                                            <span>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </span>
+                                        </p>
+                                        <p>
+                                        "O fato de poder acompanhar pessoas e veículos no mesmo app já é um diferencial enorme! Além disso o foco ecológico, com a função de localizar pontos de coleta de materiais recicláveis é super útil. Agora, consigo não só monitorar meus trajetos, mas também contribuir com o meio ambiente." 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn_default">
+                                Ver mais avaliações
+                            </button>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+        <div id="footer_items">
+                <span id="copyright">
+                    &copy 2024 Grupo 7 UPX
+                </span>
+                <div class="social_media_buttons">
+                    <a href="https://wa.me/5515991671391" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> 
+                    </a>
+                    <a href="https://www.instagram.com/instafacens/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i> 
+                    </a>
+                    <a href="https://www.facebook.com/facens" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
